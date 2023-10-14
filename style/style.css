@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  background-color: #4f5253;
+  min-width: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  height: 50px;
+  margin-right: 12px;
+}
+nav a {
+  font-weight: 600;
+  padding-right: 11px;
+}
+nav a:hover {
+  background-color: #35c5c5;
+  padding: 10px;
+}
+@media screen and (max-width: 390px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0;
+  }
+}
